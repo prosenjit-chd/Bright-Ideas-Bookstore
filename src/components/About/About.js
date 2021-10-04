@@ -8,11 +8,11 @@ const About = () => {
         <div>
             {/* This is Card Component form Bootstrap. Here, uses all are bootstrap component  */}
             <Card className="text-center">
-                <Card.Img className="mt-5" variant="top" src="https://previews.123rf.com/images/udra/udra1510/udra151000046/47534775-english-is-easy-to-learning-concept-with-letters-on-blue-boards.jpg" style={{'height': '480px'}} />
+                <Card.Img className="mt-5" variant="top" src="https://pbs.twimg.com/media/FA3RD5rVIAIghVq?format=jpg&name=large" style={{'height': '480px'}} />
                 <Card.Header>About Our Goal</Card.Header>
                 <Card.Body>
                     <Card.Title>Easy English</Card.Title>
-                    <Card.Text>
+                    <Card.Text className="w-75 mx-auto">
                             Internationalization is changing the world of education, and globalization is changing the world of internationalization. Moreover, Technology is accelerating global change and changing the nature of work; and the global economy is being re-structured with the dominance of entrepreneurship  job variation. Providing measurable global knowledge and specific job skills are important; and institutes must focus on the attitudes, skills, and knowledge helpful for student career flexibility including leadership skills, a good work ethic, and abilities to continue learning.
 
                             Daffodil International Academy (DIA) stands bold on its commitment to provide quality education and serve the nation by producing the human resources which in turn will help to develop the national economy and lead the entire world. Daffodil International Academy (DIA) offers the perfect mix of academic excellence, flexible study options, a supportive environment, good locations, great employment prospects and a brilliant social life.

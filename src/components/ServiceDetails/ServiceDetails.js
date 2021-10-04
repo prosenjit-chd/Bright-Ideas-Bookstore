@@ -37,7 +37,7 @@ const ServiceDetails = () => {
                     <h3>Course Name: {service.title}</h3>
                     <h5>Price: {service.price} BDT</h5>
                     <h5>Course Type: {service.type}</h5>
-                    <p>{service.deatails}</p>
+                    <p className="w-75 mx-auto">{service.deatails}</p>
                     <Button variant="success" onClick={seeMealHandler}><ArrowBarLeft size={30} /> See All services</Button>
                 </div>
    
