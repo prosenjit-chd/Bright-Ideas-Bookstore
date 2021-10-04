@@ -54,6 +54,7 @@ const Services = () => {
             </Col>
             {/* Data Maping here  */}
             <Col xs="1" md="2" lg="9">
+            <h2 className="text-success">See All Services </h2>
                 <Row xs={1} md={2} lg={3} className= "g-4 mb-4"> 
                     {
                         service.map(course => <Service key={course.id} course={course} />)

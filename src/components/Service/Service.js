@@ -26,8 +26,8 @@ const Service = (props) => {
                         <Card.Text>
                             {deatails.slice(0, 100)}
                         </Card.Text>
-                        <div class="card-details">
-                        <ClockFill />  <span class="card-md-icon-1">{time}</span><EnvelopeFill /><b> Catagory: </b> {catagory}
+                        <div className="card-details">
+                        <ClockFill />  <span className="card-md-icon-1">{time}</span><EnvelopeFill /><b> Catagory: </b> {catagory}
                         </div>
                     </Card.Body>
                     <Card.Footer>
