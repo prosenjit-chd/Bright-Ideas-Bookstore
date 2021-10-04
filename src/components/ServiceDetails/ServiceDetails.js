@@ -6,19 +6,25 @@ import { ArrowBarLeft } from 'react-bootstrap-icons';
 import { useHistory, useParams } from 'react-router';
 
 const ServiceDetails = () => {
+    // Use UseParam here 
     const { id } = useParams();
+    // Use UseState Here 
     const [service, setService] = useState({});
     const history = useHistory();
 
+    // Data fetch here 
     useEffect(() => {
         fetch('../courses.json')
             .then(res => res.json())
             .then(data => handleSingleData(data))
     }, []);
 
+    // Find single data using function 
     const handleSingleData = (data) => {
         setService(data.find(d => d.id === id))
     }
+
+    // Single button back function 
     const seeMealHandler = () => {
         history.push('/services');
     }
