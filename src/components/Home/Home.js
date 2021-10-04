@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Container, Row, Carousel, Button } from 'react-bootstrap';
+import { Container, Row, Carousel } from 'react-bootstrap';
 import Service from '../Service/Service';
 import './Home.css';
 
@@ -28,8 +28,8 @@ const Home = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>IELTS Book label</h3>
+                    <p>IELTS vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,8 +40,8 @@ const Home = () => {
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>GRE Book label</h3>
+                    <p>GRE dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -52,8 +52,8 @@ const Home = () => {
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>TOFEL book label</h3>
+                    <p>TOFEL commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

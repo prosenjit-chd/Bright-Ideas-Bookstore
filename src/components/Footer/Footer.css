@@ -1,7 +1,37 @@
-/* .footer-main{
-    padding-top: 80px;
-    padding-bottom: 10px;
+.footer-total{
+    background-color: #328053;
+    color: white;
+    margin-top: 15px;
+    padding-top: 20px;
 }
-.footer-element{
-    padding-left: 25px;
-} */
+.footer-logo{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+}
+.app{
+    /* display: flex; */
+    align-items: center;
+    padding: 10px;
+}
+.ios, .android{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B3445;
+    width: 145px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin: 15px;
+}
+.ios img, .android img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.ios small, .android small{
+    font-size: x-small;
+    font-weight: 700;
+    color: #8F939D;
+}

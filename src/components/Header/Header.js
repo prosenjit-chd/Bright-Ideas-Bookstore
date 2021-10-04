@@ -20,7 +20,7 @@ const Header = () => {
                         <NavLink className="nav-link" activeStyle={activeStyle} to="/home">Home</NavLink>
                         <NavLink className="nav-link" activeStyle={activeStyle} to="/services">Services</NavLink>
                         <NavLink className="nav-link" activeStyle={activeStyle} to="/about">About</NavLink>
-                        <NavLink className="nav-link" activeStyle={activeStyle} to="/registration">Register</NavLink>
+                        <NavLink className="nav-link" activeStyle={activeStyle} to="/signin">SignIn</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

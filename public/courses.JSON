@@ -4,6 +4,8 @@
         "title": "Developing English",
         "price": 1000,
         "type": "feature",
+        "catagory": "General",
+        "time": "5 h 25 min",
         "deatails": "You will be given the opportunity to develop essential thinking and study skills, not only within the computing domain, but also within the context of business through a balance of academic and vocational subjects.",
         "img": "https://images-na.ssl-images-amazon.com/images/I/91X8EvC0DYL.jpg"
     },
@@ -12,6 +14,8 @@
         "title": "Advance English",
         "price": 1200,
         "type": "feature",
+        "catagory": "General",
+        "time": "4 h 15 min",
         "deatails": "The qualification will allow you to understand and enter the computing profession with the necessary knowledge expected within the industry and the ability to apply the skills to a range of IT-related functions.",
         "img": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781529361568.jpg"
     },
@@ -20,6 +24,8 @@
         "title": "English for Academic Purpose",
         "price": 1400,
         "type": "feature",
+        "catagory": "Easy",
+        "time": "7 h 40 min",
         "deatails": "On successful completion of the qualification you will be able to embark on NCC Education’s Level 5 Diploma in Computing (QCF) (L5DC), which is equivalent to the second year of a",
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558393047l/45895624._SY475_.jpg"
     },
@@ -28,6 +34,8 @@
         "title": "Study and Communication Skill",
         "price": 1600,
         "type": "feature",
+        "catagory": "Semi Advance",
+        "time": "6 h 15 min",
         "deatails": "You will be given the opportunity to develop essential thinking and study skills, not only within the computing domain, but also within the context of business through a balance of academic and vocational subjects.",
         "img": "https://ae01.alicdn.com/kf/HTB1asfyKXXXXXaMXVXXq6xXFXXXw/First-English-Words-Incl-audio-CD-Age-3-7-Collins-First-English-Words-Picture-Book-English.jpg"
     },
@@ -36,6 +44,8 @@
         "title": "Compolsory English",
         "price": 1800,
         "type": "common",
+        "catagory": "Semi Advance",
+        "time": "7 h 45 min",
         "deatails": "NCC Education degree journey and builds upon the knowledge gained during the NCC Education Level 4 Diploma in Computing. Exposing you to greater detail and more advanced topics in a range of areas including database development",
         "img": "https://www.booktopia.com.au/covers/big/9781409509196/0000/english-for-beginners.jpg"
     },
@@ -44,6 +54,8 @@
         "title": "TOFEL English",
         "price": 2200,
         "type": "common",
+        "catagory": "Advance",
+        "time": "8 h 15 min",
         "deatails": "You will study a balance of academic and vocational subjects in order to provide you with the necessary knowledge and skills to play a significant role in IT organisations.",
         "img": "https://images-na.ssl-images-amazon.com/images/I/41L70H-ChUL._SX352_BO1,204,203,200_.jpg"
     },
@@ -52,6 +64,8 @@
         "title": "IELTS English",
         "price": 2500,
         "type": "common",
+        "catagory": "Advance",
+        "time": "8 h 30 min",
         "deatails": "You will study a balance of academic and vocational subjects in order to provide you with the necessary knowledge and skills to play a significant role in IT organisations.",
         "img": "https://superingenious.com/wp-content/uploads/2019/12/Basic-IELTS-Speaking.jpg"
     },
@@ -60,6 +74,8 @@
         "title": "GRE English",
         "price": 2800,
         "type": "common",
+        "catagory": "High Advance",
+        "time": "9 h 15 min",
         "deatails": "You will study a balance of academic and vocational subjects in order to provide you with the necessary knowledge and skills to play a significant role in IT organisations.",
         "img": "https://images-na.ssl-images-amazon.com/images/I/51X8dZ-GTzL._SX377_BO1,204,203,200_.jpg"
     }
