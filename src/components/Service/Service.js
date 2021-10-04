@@ -13,12 +13,16 @@ const Service = (props) => {
     // use use History function 
     const history = useHistory();
 
+    // use handaler 
+    const handleDetailView = () => {
+        history.push(`/service/${id}`)
+    }
     // use bootstrap component 
     return (
         <Col>
             <Card className="h-100 cart-font">
                 <Card.Img variant="top" src={img} className="card-img"/>
-                    <Card.Body>
+                <Card.Body>
                         <Card.Title className="card-title">{title}</Card.Title>
                         <Card.Text className="cart-text">
                             <b>Enroll Price:  </b> {price} BDT
@@ -29,15 +33,15 @@ const Service = (props) => {
                         <div className="card-details">
                         <ClockFill />  <span className="card-md-icon-1">{time}</span><EnvelopeFill /><b> Catagory: </b> {catagory}
                         </div>
-                    </Card.Body>
-                    <Card.Footer>
+                </Card.Body>
+                <Card.Footer>
                         <Button 
                         // Workable button this is
                             className="float-end" 
                             variant="success" 
-                            // onClick={handleDetailView}
+                            onClick={handleDetailView}
                         ><EyeFill />  More Details</Button>
-                    </Card.Footer>
+                </Card.Footer>
             </Card>
         </Col>
     );
