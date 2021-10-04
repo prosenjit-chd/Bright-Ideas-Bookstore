@@ -6,8 +6,10 @@ import Service from '../Service/Service';
 import './Services.css';
 
 const Services = () => {
+    // Use USe State here 
     const [service, setService] = useState([]);
 
+    // Use Use Effect here 
     useEffect(() => {
         fetch('./courses.json')
             .then(res => res.json())
@@ -15,6 +17,7 @@ const Services = () => {
     }, []);
 
     return (
+        // Side Bar here 
     <Container style={{ "marginTop": "80px" }}>
         <Row className="g-4">
             <Col xs="1" md="2" lg="3" className="side-bar">
@@ -49,6 +52,7 @@ const Services = () => {
                 <ListGroup.Item>One week English</ListGroup.Item>
             </ListGroup>
             </Col>
+            {/* Data Maping here  */}
             <Col xs="1" md="2" lg="9">
                 <Row xs={1} md={2} lg={3} className= "g-4 mb-4"> 
                     {

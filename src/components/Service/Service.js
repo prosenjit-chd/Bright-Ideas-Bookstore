@@ -5,10 +5,15 @@ import { useHistory } from 'react-router';
 
 import './Service.css';
 
+// use props 
 const Service = (props) => {
+    // use distructure here 
     const { id, title, price, deatails, img, time, catagory } = props.course;
+
+    // use use History function 
     const history = useHistory();
 
+    // use bootstrap component 
     return (
         <Col>
             <Card className="h-100 cart-font">
@@ -27,6 +32,7 @@ const Service = (props) => {
                     </Card.Body>
                     <Card.Footer>
                         <Button 
+                        // Workable button this is
                             className="float-end" 
                             variant="success" 
                             // onClick={handleDetailView}

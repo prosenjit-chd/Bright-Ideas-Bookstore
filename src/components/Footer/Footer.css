@@ -1,16 +1,17 @@
+/* Footer style sheet Class  */
 .footer-total{
     background-color: #328053;
     color: white;
     margin-top: 15px;
     padding-top: 20px;
 }
+/* Footer Logo  */
 .footer-logo{
     display: grid;
     justify-content: end;
     align-items: center;
 }
 .app{
-    /* display: flex; */
     align-items: center;
     padding: 10px;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
+// Header Internal Style 
 const Header = () => {
     const activeStyle = {
         fontWeight: "bold",
@@ -9,8 +10,10 @@ const Header = () => {
         borderBottom: "solid 2px #157347"
     }
 
+    // Internal Style Use here 
     return (
         <div>
+            {/* Bootstrap Tag use here  */}
             <Navbar variant="light" expand="lg" className="fixed-top" style={{ "backgroundColor": "rgba(253, 245, 230, 0.74)"}}>
             <Container fluid>
                 <NavLink className="navbar-brand text-success fw-bold" to="/home">Easy English</NavLink>

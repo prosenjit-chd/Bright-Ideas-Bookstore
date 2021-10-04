@@ -6,12 +6,15 @@ import Service from '../Service/Service';
 import './Home.css';
 
 const Home = () => {
+    // Use State declear here 
     const [service, setService] = useState([]);
 
+    // sorting feature type course using function 
     const handleFeatured = (data) => {
         setService(data.filter(d => d.type === "feature"))
     }
 
+    // Data fetching
     useEffect(() => {
         fetch('./courses.json')
             .then(res => res.json())
@@ -20,6 +23,7 @@ const Home = () => {
 
     return (
         <div>
+            {/* Home page Carousel use here  */}
              <Carousel className="carousel-custom">
                 <Carousel.Item>
                     <img
@@ -58,6 +62,7 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
             
+            {/* Data fetching  */}
             <Container style={{ "marginTop": "80px" }}>
                 <h2 className="text-success">Features Courses </h2>
                 <Row xs={1} md={2} lg={4} className="g-4">

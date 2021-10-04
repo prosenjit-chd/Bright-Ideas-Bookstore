@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+// External CSS Style Added here 
 import './Footer.css'
 
+// Here use all are bootstrao component 
 const Footer = () => {
     return (
         

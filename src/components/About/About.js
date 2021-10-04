@@ -1,11 +1,12 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
+// External CSS style added here 
 import './About.css'
 
 const About = () => {
     return (
         <div>
-            
+            {/* This is Card Component form Bootstrap. Here, uses all are bootstrap component  */}
             <Card className="text-center">
                 <Card.Img className="mt-5" variant="top" src="https://previews.123rf.com/images/udra/udra1510/udra151000046/47534775-english-is-easy-to-learning-concept-with-letters-on-blue-boards.jpg" style={{'height': '480px'}} />
                 <Card.Header>About Our Goal</Card.Header>
@@ -18,6 +19,7 @@ const About = () => {
 
                             DIA has come a long way in a short span of time. It has got the national and international reputation, received the awards since it has a strong professional orientation with a focus on academic excellence and graduate employability. It is a pride that DIA graduates have high success rates, both in undertaking further study and in finding quality employment.
                     </Card.Text>
+                    {/* In Active button usees here. It is not clickable.  */}
                     <Button variant="success">More</Button>
                 </Card.Body>
                 <Card.Footer className="text-muted">Last Updated 2 days ago</Card.Footer>
